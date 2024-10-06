@@ -95,7 +95,7 @@ body{
       book.turn('addPage', element, page);
       // Let's assum that the data is comming from the server and the request takes 1s.
       setTimeout(function(){
-          element.html('<div class="data">Data for page '+page+'</div>');
+          element.html('<div class="data"><img src="'+page+'.jpg"/></div>');
       }, 1000);
     }
   }
